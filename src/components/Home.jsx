@@ -8,27 +8,27 @@ const Home = () => {
 
             {/* conntainer */}
 
-            <div className='max-w-[1000px] mx-auto px-4 flex flex-col justify-center  h-full'>
+            <div className='max-w-[900px] mx-auto px-4 flex flex-col justify-center  h-full'>
 
                 <p className='text-pink-600'>Hi my name is </p>
                 <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>Sanjeev Kumar singh</h1>
                 <h2 className='md:flex text-3xl sm:text-5xl font-bold text-[#8892b0]'>
 
                     I'm a <span className='text-pink-600 md:mx-2'>
-                    <Typewriter
-                        options={{
-                            strings: [
-                                'Full Stack Developer',
-                                'Android App Developer',
-                            ],
-                            autoStart: true,
-                            loop: true,
-                            delay: 40,
-                        }}
-                    />
+                        <Typewriter
+                            options={{
+                                strings: [
+                                    'Full Stack Developer',
+                                    'Android App Developer',
+                                ],
+                                autoStart: true,
+                                loop: true,
+                                delay: 40,
+                            }}
+                        />
                     </span>
                 </h2>
-                <p className='text-[#8892b0] py-4 max-w-[700px] '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam minus neque, porro aperiam velit, veritatis adipisci in dolorum non quasi voluptas voluptatem quod animi laboriosam quia perferendis, laudantium temporibus doloremque!
+                <p className='text-[#8892b0] py-4 max-w-[800px] '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam minus neque, porro aperiam velit, veritatis adipisci in dolorum non quasi voluptas voluptatem quod animi laboriosam quia perferendis, laudantium temporibus doloremque!
                     Adipisci dignissimos nostrum porro animi modi qui quidem totam rem repellendus perspiciatis nobis, vel ipsam error aliquam unde earum soluta. Facilis delectus impedit dolorem molestias harum? Id voluptas perferendis necessitatibus!</p>
 
                 <div>
